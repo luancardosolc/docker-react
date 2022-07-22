@@ -1,0 +1,6 @@
+registry=https://npm.mydomain.com/
+username=dockerUser
+email=docker@mydomain.com
+strict-ssl=false
+always-auth=true
+//npm.mydomain.com/:_authToken="someAuthToken"

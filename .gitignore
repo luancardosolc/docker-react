@@ -1,0 +1,9 @@
+# Code editors files
+.idea
+.vscode
+
+# Npm configs that could contain sensitive data
+.npmrc
+
+# The projets folders
+/*/

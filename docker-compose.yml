@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+    app:
+        container_name: dockerized-react-app
+        build:
+            context: .
+            dockerfile: Dockerfile
+        volumes:
+            # This is important: Here you will specify the folder of your project. 
+            - './zl-web-teacher:/app'
+            - '/app/node_modules'
+        ports:
+            - '3000:3000'
+        environment:
+            - NODE_ENV=development
